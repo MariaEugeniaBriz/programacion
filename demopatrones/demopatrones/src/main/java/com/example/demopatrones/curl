@@ -1,0 +1,8 @@
+--Mostrar
+curl http://localhost:8080/usuarios
+
+--Agregar
+curl -X POST http://localhost:8080/usuarios -H "Content-Type: application/jason" -d '{"nombre": "pepe"}'
+
+--Borrar
+curl -X DELETE http://localhost:8080/usuarios/pepe3
